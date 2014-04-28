@@ -3,7 +3,8 @@
 	<Player Id="0">
 		<AgentClass>
 			<ClassName>QLearningAgent</ClassName>
-			<Argument>10</Argument>
+			<Argument>260</Argument>
+            <Argument>false</Argument>
 		</AgentClass>
 	</Player>
 	<Player Id="0">

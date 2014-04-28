@@ -26,4 +26,9 @@ public class QLUnit {
     public int getHP() { return HP; }
 
     public Point getLoc() { return loc; }
+
+    @Override
+    public String toString() {
+        return String.format("#%-2d(%-2d,%-2d):%2dHP", ID, loc.x, loc.y, HP);
+    }
 }
